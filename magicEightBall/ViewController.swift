@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         getAnswerButton.setTitle("Ask", for: .normal)
         promptUser.text = "Ask the grand wizard any question your heart desires"
         getAnswer.text = ""
+        self.view.backgroundColor = UIColor.orange
     }
     
     func handleAnswer(_ input: Int) {
